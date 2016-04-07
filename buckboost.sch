@@ -168,26 +168,26 @@ $EndComp
 $Comp
 L C C5
 U 1 1 56ED0F3F
-P 8050 3700
-F 0 "C5" H 8050 3800 40  0000 L CNN
-F 1 "22uF" H 8056 3615 40  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8088 3550 30  0001 C CNN
-F 3 "" H 8050 3700 60  0000 C CNN
-	1    8050 3700
+P 7550 3700
+F 0 "C5" H 7550 3800 40  0000 L CNN
+F 1 "22uF" H 7556 3615 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7588 3550 30  0001 C CNN
+F 3 "" H 7550 3700 60  0000 C CNN
+	1    7550 3700
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR05
 U 1 1 56ED0F95
-P 8050 4000
-F 0 "#PWR05" H 8050 4000 30  0001 C CNN
-F 1 "GND" H 8050 3930 30  0001 C CNN
-F 2 "" H 8050 4000 60  0000 C CNN
-F 3 "" H 8050 4000 60  0000 C CNN
-	1    8050 4000
+P 7550 4000
+F 0 "#PWR05" H 7550 4000 30  0001 C CNN
+F 1 "GND" H 7550 3930 30  0001 C CNN
+F 2 "" H 7550 4000 60  0000 C CNN
+F 3 "" H 7550 4000 60  0000 C CNN
+	1    7550 4000
 	1    0    0    -1  
 $EndComp
-Text GLabel 9350 3500 2    60   Input ~ 0
+Text GLabel 9900 3500 2    60   Input ~ 0
 VOUT
 Text GLabel 6950 4500 2    60   Input ~ 0
 PG
@@ -205,23 +205,23 @@ $EndComp
 $Comp
 L C C6
 U 1 1 56ED199B
-P 8300 3700
-F 0 "C6" H 8300 3800 40  0000 L CNN
-F 1 "22uF" H 8306 3615 40  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8338 3550 30  0001 C CNN
-F 3 "" H 8300 3700 60  0000 C CNN
-	1    8300 3700
+P 7800 3700
+F 0 "C6" H 7800 3800 40  0000 L CNN
+F 1 "22uF" H 7806 3615 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7838 3550 30  0001 C CNN
+F 3 "" H 7800 3700 60  0000 C CNN
+	1    7800 3700
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C7
 U 1 1 56ED19D2
-P 8550 3700
-F 0 "C7" H 8550 3800 40  0000 L CNN
-F 1 "22uF" H 8556 3615 40  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8588 3550 30  0001 C CNN
-F 3 "" H 8550 3700 60  0000 C CNN
-	1    8550 3700
+P 8050 3700
+F 0 "C7" H 8050 3800 40  0000 L CNN
+F 1 "22uF" H 8056 3615 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8088 3550 30  0001 C CNN
+F 3 "" H 8050 3700 60  0000 C CNN
+	1    8050 3700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -241,7 +241,7 @@ U 1 1 56EE64F0
 P 700 3000
 F 0 "D1" H 700 3100 40  0000 C CNN
 F 1 "DIODESCH" H 700 2900 40  0000 C CNN
-F 2 "" H 700 3000 60  0001 C CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 700 3000 60  0001 C CNN
 F 3 "" H 700 3000 60  0000 C CNN
 	1    700  3000
 	0    1    1    0   
@@ -324,74 +324,6 @@ Text Notes 8350 650  0    60   ~ 0
 Reference Values:\n
 Text GLabel 6350 3700 2    60   Input ~ 0
 FEEDBACK
-Wire Wire Line
-	5450 3400 5450 3100
-Wire Wire Line
-	5450 3100 5250 3100
-Wire Wire Line
-	4450 3400 4450 3100
-Wire Wire Line
-	4450 3100 4650 3100
-Wire Wire Line
-	4400 3900 4400 4150
-Connection ~ 4400 4000
-Wire Wire Line
-	4450 3800 4150 3800
-Wire Wire Line
-	4150 3800 4150 4100
-Wire Wire Line
-	4150 4500 4150 4650
-Wire Wire Line
-	4450 3900 4400 3900
-Wire Wire Line
-	5450 3700 6350 3700
-Wire Wire Line
-	5450 3500 7350 3500
-Wire Wire Line
-	5600 3500 5600 3600
-Wire Wire Line
-	6100 3700 6100 3600
-Connection ~ 6100 3700
-Wire Wire Line
-	6350 3700 6350 3750
-Wire Wire Line
-	6350 4150 6350 4250
-Connection ~ 5600 3500
-Wire Wire Line
-	6950 3500 6950 3700
-Wire Wire Line
-	5450 3900 5450 4500
-Wire Wire Line
-	5450 4500 6950 4500
-Wire Wire Line
-	6950 4500 6950 4200
-Wire Wire Line
-	8050 3900 8050 4000
-Connection ~ 6950 3500
-Wire Wire Line
-	3200 4000 4450 4000
-Wire Wire Line
-	8050 3900 8550 3900
-Connection ~ 8300 3900
-Connection ~ 8050 3900
-Wire Wire Line
-	700  2500 700  2800
-Wire Wire Line
-	700  3200 700  3500
-Wire Wire Line
-	7050 2850 7050 3050
-Wire Wire Line
-	6450 2850 6650 2850
-Wire Wire Line
-	6450 3350 6450 3500
-Connection ~ 6450 3500
-Connection ~ 2950 3500
-Wire Wire Line
-	2950 4000 2950 4100
-Wire Wire Line
-	2950 4500 2950 4650
-Wire Notes Line
-	11150 550  8300 550 
 Text GLabel 1500 1000 0    60   Input ~ 0
 FEEDBACK
 $Comp
@@ -427,12 +359,6 @@ F 3 "" H 750 1450 30  0000 C CNN
 	1    750  1450
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1500 1100 1500 1200
-Wire Wire Line
-	1500 900  750  900 
-Wire Wire Line
-	750  900  750  1200
 $Comp
 L GND #PWR08
 U 1 1 56EFC80B
@@ -444,11 +370,6 @@ F 3 "" H 1100 1900 60  0000 C CNN
 	1    1100 1900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	750  1700 1500 1700
-Wire Wire Line
-	1100 1700 1100 1900
-Connection ~ 1100 1700
 Text Notes 1550 1350 0    60   ~ 0
 5V Out
 Text Notes 800  1350 0    60   ~ 0
@@ -463,6 +384,144 @@ Text Notes 8350 1800 0    39   ~ 0
 Pulled from TI Reference Design,\nSee: http://www.ti.com/lit/ds/symlink/tps63060.pdf page 12\nOther components not part of reference
 Text Notes 8600 1500 0    60   ~ 0
 C1, C2 = 10 uF\nC3 = 0.1 uF\nC4 = 10 pF\nC5, C6, C7 = 22 uF\n\nR2 = 111 kR\nR3 = 22 kR\nR4 = 1 MR\nR6 = 1 MR\n
+$Comp
+L INDUCTOR_SMALL FB1
+U 1 1 56F00466
+P 2150 3500
+F 0 "FB1" H 2150 3600 50  0000 C CNN
+F 1 "1K @ 100 MHz" H 2150 3450 50  0000 C CNN
+F 2 "Capacitors_SMD:C_1210_HandSoldering" H 2150 3500 60  0001 C CNN
+F 3 "" H 2150 3500 60  0000 C CNN
+	1    2150 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR_SMALL FB2
+U 1 1 56F01A9C
+P 9450 3500
+F 0 "FB2" H 9450 3600 50  0000 C CNN
+F 1 "1K @ 100 MHz" H 9450 3450 50  0000 C CNN
+F 2 "Capacitors_SMD:C_1210_HandSoldering" H 9450 3500 60  0001 C CNN
+F 3 "" H 9450 3500 60  0000 C CNN
+	1    9450 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R8
+U 1 1 56F01F50
+P 8500 3500
+F 0 "R8" V 8580 3500 40  0000 C CNN
+F 1 "0.01" V 8507 3501 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8430 3500 30  0001 C CNN
+F 3 "" H 8500 3500 30  0000 C CNN
+	1    8500 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R7
+U 1 1 56F02733
+P 4100 3500
+F 0 "R7" V 4180 3500 40  0000 C CNN
+F 1 "0.01" V 4107 3501 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4030 3500 30  0001 C CNN
+F 3 "" H 4100 3500 30  0000 C CNN
+	1    4100 3500
+	0    1    1    0   
+$EndComp
+Text Notes 3850 3450 0    39   ~ 0
+Current Sensing
+Text Notes 8300 3400 0    39   ~ 0
+Current Sensing
+$Comp
+L CONN_2 P1
+U 1 1 5705A13F
+P 1850 2650
+F 0 "P1" V 1800 2650 40  0000 C CNN
+F 1 "CONN_2" V 1900 2650 40  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 1850 2650 60  0001 C CNN
+F 3 "" H 1850 2650 60  0000 C CNN
+	1    1850 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 3400 5450 3100
+Wire Wire Line
+	5450 3100 5250 3100
+Wire Wire Line
+	4450 3400 4450 3100
+Wire Wire Line
+	4450 3100 4650 3100
+Wire Wire Line
+	4400 3900 4400 4150
+Connection ~ 4400 4000
+Wire Wire Line
+	4450 3800 4150 3800
+Wire Wire Line
+	4150 3800 4150 4100
+Wire Wire Line
+	4150 4500 4150 4650
+Wire Wire Line
+	4450 3900 4400 3900
+Wire Wire Line
+	5450 3700 6350 3700
+Wire Wire Line
+	5450 3500 8250 3500
+Wire Wire Line
+	5600 3500 5600 3600
+Wire Wire Line
+	6100 3700 6100 3600
+Connection ~ 6100 3700
+Wire Wire Line
+	6350 3700 6350 3750
+Wire Wire Line
+	6350 4150 6350 4250
+Connection ~ 5600 3500
+Wire Wire Line
+	6950 3500 6950 3700
+Wire Wire Line
+	5450 3900 5450 4500
+Wire Wire Line
+	5450 4500 6950 4500
+Wire Wire Line
+	6950 4500 6950 4200
+Wire Wire Line
+	7550 3900 7550 4000
+Connection ~ 6950 3500
+Wire Wire Line
+	3200 4000 4450 4000
+Wire Wire Line
+	7550 3900 8050 3900
+Connection ~ 7800 3900
+Connection ~ 7550 3900
+Wire Wire Line
+	700  2500 700  2800
+Wire Wire Line
+	700  3200 700  3500
+Wire Wire Line
+	7050 2850 7050 3050
+Wire Wire Line
+	6450 2850 6650 2850
+Wire Wire Line
+	6450 3350 6450 3500
+Connection ~ 6450 3500
+Connection ~ 2950 3500
+Wire Wire Line
+	2950 4000 2950 4100
+Wire Wire Line
+	2950 4500 2950 4650
+Wire Notes Line
+	11150 550  8300 550 
+Wire Wire Line
+	1500 1100 1500 1200
+Wire Wire Line
+	1500 900  750  900 
+Wire Wire Line
+	750  900  750  1200
+Wire Wire Line
+	750  1700 1500 1700
+Wire Wire Line
+	1100 1700 1100 1900
+Connection ~ 1100 1700
 Wire Notes Line
 	8300 1850 11150 1850
 Wire Notes Line
@@ -477,59 +536,13 @@ Wire Notes Line
 	600  600  2900 600 
 Wire Notes Line
 	2900 600  2900 1950
-$Comp
-L INDUCTOR_SMALL FB1
-U 1 1 56F00466
-P 2150 3500
-F 0 "FB1" H 2150 3600 50  0000 C CNN
-F 1 "1K @ 100 MHz" H 2150 3450 50  0000 C CNN
-F 2 "" H 2150 3500 60  0001 C CNN
-F 3 "" H 2150 3500 60  0000 C CNN
-	1    2150 3500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7850 3500 8650 3500
 Wire Wire Line
 	1700 3500 1900 3500
-$Comp
-L INDUCTOR_SMALL FB2
-U 1 1 56F01A9C
-P 7600 3500
-F 0 "FB2" H 7600 3600 50  0000 C CNN
-F 1 "1K @ 100 MHz" H 7600 3450 50  0000 C CNN
-F 2 "" H 7600 3500 60  0001 C CNN
-F 3 "" H 7600 3500 60  0000 C CNN
-	1    7600 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R8
-U 1 1 56F01F50
-P 8900 3500
-F 0 "R8" V 8980 3500 40  0000 C CNN
-F 1 "0.01" V 8907 3501 40  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 8830 3500 30  0001 C CNN
-F 3 "" H 8900 3500 30  0000 C CNN
-	1    8900 3500
-	0    1    1    0   
-$EndComp
+Connection ~ 7550 3500
+Connection ~ 7800 3500
 Connection ~ 8050 3500
-Connection ~ 8300 3500
-Connection ~ 8550 3500
 Wire Wire Line
-	9150 3500 9350 3500
-$Comp
-L R R7
-U 1 1 56F02733
-P 4100 3500
-F 0 "R7" V 4180 3500 40  0000 C CNN
-F 1 "0.01" V 4107 3501 40  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 4030 3500 30  0001 C CNN
-F 3 "" H 4100 3500 30  0000 C CNN
-	1    4100 3500
-	0    1    1    0   
-$EndComp
+	9700 3500 9900 3500
 Wire Wire Line
 	3200 4000 3200 3900
 Wire Wire Line
@@ -546,8 +559,41 @@ Wire Wire Line
 Connection ~ 4400 3500
 Wire Wire Line
 	3850 3500 2400 3500
-Text Notes 3850 3450 0    39   ~ 0
-Current Sensing
-Text Notes 8650 3450 0    39   ~ 0
-Current Sensing
+Wire Wire Line
+	9200 3500 8750 3500
+Wire Wire Line
+	1500 2550 700  2550
+Connection ~ 700  2550
+$Comp
+L GND #PWR09
+U 1 1 5705AF2B
+P 1500 2850
+F 0 "#PWR09" H 1500 2850 30  0001 C CNN
+F 1 "GND" H 1500 2780 30  0001 C CNN
+F 2 "" H 1500 2850 60  0000 C CNN
+F 3 "" H 1500 2850 60  0000 C CNN
+	1    1500 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2750 1500 2850
+$Comp
+L CONN_2 P2
+U 1 1 5705B0DB
+P 10200 3850
+F 0 "P2" V 10150 3850 40  0000 C CNN
+F 1 "CONN_2" V 10250 3850 40  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 10200 3850 60  0001 C CNN
+F 3 "" H 10200 3850 60  0000 C CNN
+	1    10200 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 3750 9850 3500
+Connection ~ 9850 3500
+Wire Wire Line
+	9850 3950 7950 3950
+Wire Wire Line
+	7950 3950 7950 3900
+Connection ~ 7950 3900
 $EndSCHEMATC
